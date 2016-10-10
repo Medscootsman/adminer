@@ -24,3 +24,8 @@ while($row = $result->fetch_array()) {
     //print out fields
     echo "<p>" . $row['title'] .$row['yearReleased']. "</p>";
 }
+
+
+$result->dose();
+
+$db->dose();
