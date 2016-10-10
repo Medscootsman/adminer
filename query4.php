@@ -13,7 +13,7 @@ $db = new mysqli(
     'acsm_eeffc4063160a9f'
 );
 
-$sql_query = "SELECT * FROM marvelmovies WHERE title LIKE '%X-MEN%' OR WHERE title LIKE '%X2%'";
+$sql_query = "SELECT * FROM marvelmovies WHERE title LIKE '%X-MEN%' OR title LIKE '%X2%'";
 
 $result = $db->query($sql_query);
 
