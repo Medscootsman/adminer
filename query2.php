@@ -22,7 +22,7 @@ while($row = $result->fetch_array()) {
 
 
     //print out fields
-    echo "<p>" . $row['title'] .$row['yearReleased']. "</p>";
+    echo "<p>" . $row['title']. " " .$row['yearReleased']. "</p>";
 }
 
 
